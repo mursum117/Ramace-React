@@ -7,7 +7,7 @@ export const SectionAboutUs = () =>{
             <section className="row justify-content-center">
                 <h1 className="text-center">ACUPUNTURA Y ESTÉTICA</h1>
                 <h3 className="text-center mb-3">"El inicio de la belleza esta en el bienestar de tu interior"</h3>
-                <article className="col-12 col-lg-5 my-auto"> 
+                <article className="col-12 col-lg-5 m-auto"> 
                     <h2 className="text-center text-lg-start">Te damos la bienvenida a RAMACE</h2>
                     <hr></hr>
                     <p>Somos un centro de bienestar y belleza dedicado a brindar servicios de calidad en acupuntura y
@@ -44,7 +44,7 @@ export const SectionAboutUs = () =>{
                         </article>
                     </section>
                 </article>
-                <article className="col-12 col-lg-5 my-auto text-center">
+                <article className="col-12 col-lg-5 my-auto text-center d-none d-lg-block">
                     <Image className="img-fluid w-50" src={mujer}/>
                 </article>
             </section>

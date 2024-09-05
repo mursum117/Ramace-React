@@ -142,6 +142,8 @@ details summary ~ * {
 .img-aboutme{
     border-radius: 100%;
     box-shadow: -36px 20px 45px 1px rgba(0,0,0,0.75);
+    height: 100%;
+    width: 100%;
     -webkit-box-shadow: -36px 20px 45px 1px rgba(0,0,0,0.75);
     -moz-box-shadow: -36px 20px 45px 1px rgba(0,0,0,0.75);
 }
@@ -189,6 +191,11 @@ details[open] > summary:before {
         color: #EF86C1!important;
         font-size: 1.5em!important;
         text-decoration: none;
+    }
+
+    .img-aboutme{
+        height: 75%;
+        width: 75%;
     }
 
     summary{

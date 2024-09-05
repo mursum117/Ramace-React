@@ -15,6 +15,12 @@ export default function RootLayout({ children }) {
         <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Rubik&display=swap" rel="stylesheet"/>
         <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Rubik:wght@600&display=swap" rel="stylesheet"/>
         <link rel="icon" href={icon.src}/>
+        {/*OPEN GRAPH*/}
+        <meta name="og:title" content="Ramace Acupuntura"/>
+        <meta name="og:description" content="Centro de bienestar y belleza dedicado a brindar servicios de calidad en acupuntura y extensiones de pestañas."/>
+        <meta name="og:image" content={icon.src}/>
+        <meta name="og:image:alt" content="Logo de Ramace Acupuntura"/>
+        <meta name="robots" content="index, follow"/>
         {/*ICONS*/}
         <script src="https://kit.fontawesome.com/1ccb0e54e6.js" crossOrigin="anonymous"></script>
         {/*BOOTSTRAP*/}

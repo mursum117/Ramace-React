@@ -6,7 +6,7 @@ export const SectionAboutMe = () =>{
         <section id="AboutMe"  className="container-fluid py-5">
             <h2>Sobre mí</h2>
             <section className="row justify-content-center my-3">
-                <article className="col-12 col-lg-3 mb-5 text-center">
+                <article className="col-12 col-lg-3 mb-5 my-lg-auto text-center">
                     <Image className="img-fluid img-aboutme" src={vane} alt="Imagen de Vanessa"/>
                 </article>
                 <article className="col-12 col-lg-7 my-auto">
