@@ -12,15 +12,14 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import { NavBar } from "@/components/NavBar";
-import { NavBarResponsive } from "@/components/NavBarResponsive";
+import NavBar from "@/components/NavBar";
+import NavBarResponsive from "@/components/NavBarResponsive";
+import Section from "@/components/Section"
 import ImageSlick from "@/components/ImageSlick"
-import Iframe from "@/components/IFrames"
-import { Footer } from "@/components/Footer";
+import Iframe from "@/components/IFrame"
+import Footer from "@/components/Footer";
 
 import { useState, useEffect, useRef } from "react";
-import Section from "@/components/Section"
-
 
 export default function Home() {
   const [scroll, setScrollY] = useState(0);
@@ -77,9 +76,10 @@ export default function Home() {
 
   }, [scroll])
 
-
+  //Lógica del Slider
   const [nav1, setNav1] = useState(null);
   const [nav2, setNav2] = useState(null);
+
   let sliderRef1 = useRef(null);
   let sliderRef2 = useRef(null);
 

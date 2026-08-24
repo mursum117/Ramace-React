@@ -2,7 +2,7 @@
 
 import { useEffect } from "react";
 
-export const NavBarResponsive = () => {
+export default function NavBarResponsive() {
 
     useEffect(() => {
         let $linkHome = document.getElementById("linkHome"),

@@ -1,7 +1,7 @@
 import Image from "next/image"
 import whiteLogo from "../img/WhiteLogo.png"
 
-export const Footer  = () => {
+export default function Footer() {
     return (
         <footer>
             <section className="container-fluid text-center">

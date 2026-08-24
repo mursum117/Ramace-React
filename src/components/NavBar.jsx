@@ -1,7 +1,7 @@
 import Image from "next/image";
 import logoNav from "../img/WhiteLogo.png"
 
-export const NavBar = () => {
+export default function NavBar(){
     return (
         <nav className="container text-center py-3 d-none d-lg-block">
             <section className="row">   
